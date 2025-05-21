@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import MapSection from './components/MapSection';
 import { Helmet } from 'react-helmet';
+import ContactForm from './components/ContactForm';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
       <CampusLife />
       <Testimonials />
       <Recognition />
+      <ContactForm />
       <Footer />
     </div>
   );
