@@ -3,11 +3,11 @@ import React from 'react';
 const Testimonials = () => {
   const videoLinks = [
     'https://www.youtube.com/embed/1KE89Nvwfko?si=R-IX0e-g0yCHZv86',
-    'https://www.youtube.com/embed/tgbNymZ7vqY',
-    'https://www.youtube.com/embed/ysz5S6PUM-U',
-    'https://www.youtube.com/embed/kJQP7kiw5Fk',
-    'https://www.youtube.com/embed/XpqqjU7u5Yc',
-    'https://www.youtube.com/embed/lTTajzrSkCw',
+    'https://www.youtube.com/embed/VzHCtwGn6-0?si=ieuHs9yocwqHqpzo',
+    'https://www.youtube.com/embed/BsSdFVGUXoc?si=i7hk2vkMcrVXFRp7',
+    'https://www.youtube.com/embed/MF9koBTjwu8?si=heryAiWN0G9aASM5',
+    'https://www.youtube.com/embed/xbujA9IEXrA?si=KAbvywkNlwhD-gJR',
+    'https://www.youtube.com/embed/XfmEuD-vd14?si=ByzG4blYjjiBS0aF',
   ];
 
   return (
@@ -16,16 +16,16 @@ const Testimonials = () => {
         What Our Students Say About Us
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
         {videoLinks.map((link, index) => (
           <div
             key={index}
-            className="relative w-full overflow-hidden rounded-xl shadow-lg"
-            style={{ paddingTop: '56.25%' }} // 16:9 Aspect Ratio
+            className="relative w-full max-w-[90%] mx-auto overflow-hidden rounded-xl shadow-lg transition-transform duration-300 ease-in-out hover:scale-105"
+            style={{ paddingTop: '50%' }} // Slightly smaller 16:10 ratio
           >
             <iframe
               className="absolute top-0 left-0 w-full h-full"
-              src={`${link}?enablejsapi=1`}
+              src={link}
               title={`Student Testimonial ${index + 1}`}
               allowFullScreen
               loading="lazy"

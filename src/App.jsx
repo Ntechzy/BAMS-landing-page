@@ -7,23 +7,31 @@ import Events from './components/Events';
 import Recognition from './components/Recognition';
 import CampusLife from './components/CampusLife';
 import Testimonials from './components/Testimonials';
-import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
-import Form from './components/Form';
 import Navbar from './components/Navbar';
+import MapSection from './components/MapSection';
+import { Helmet } from 'react-helmet';
+
 
 function App() {
   return (
     <div className="App">
-      <Navbar></Navbar>
+      <Helmet>
+        <title>BAMS Admission 2025 – Naiminath Ayurvedic Medical College, Agra</title>
+        <meta
+          name="description"
+          content="Apply for BAMS Admission 2025 at Naiminath Ayurvedic Medical College, Agra. 100% approved by NCISM, Ministry of AYUSH. Hostel, labs, and expert faculty available."
+        />
+      </Helmet>
+
+      <Navbar />
       <HeroSection />
       <About />
       <WhyChoose />
-      <Recognition />
       <Events />
       <CampusLife />
       <Testimonials />
-      <ContactForm />
+      <Recognition />
       <Footer />
     </div>
   );
