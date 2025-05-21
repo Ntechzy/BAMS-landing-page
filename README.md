@@ -1,12 +1,34 @@
-# React + Vite
+#  BAMS Admission 2025 – Naiminath Ayurvedic Medical College, Agra
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page built using **React.js + Vite** for promoting BAMS Admissions 2025 at Naiminath Ayurvedic Medical College, Agra.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ React with Vite (lightning-fast)
+- 🎨 Tailwind CSS for modern styling
+- 📱 Mobile-first responsive design
+- ✅ SEO-ready (using React Helmet)
+- 🧾 Inquiry form to collect leads
+- 🎥 Testimonials, campus life, recognitions
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+- [Vite](https://vitejs.dev/) + React
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Helmet](https://www.npmjs.com/package/react-helmet) (for SEO meta tags)
+
+---
+
+## 📥 Getting Started Locally
+
+Follow these steps to run this project on your local machine:
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/GKmaster-coder/BAMS-landing-page.git
+cd BAMS-landing-page
+npm install
+npm run dev
