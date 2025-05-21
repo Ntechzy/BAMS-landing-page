@@ -25,7 +25,7 @@ A modern, responsive landing page built using **React.js + Vite** for promoting 
 
 Follow these steps to run this project on your local machine:
 
-### 1️⃣ Clone the Repository
+### 1️⃣ Use this Repo CLone->Change path-> Intall Dependencies ->Run the Development Server
 
 ```bash
 git clone https://github.com/GKmaster-coder/BAMS-landing-page.git
