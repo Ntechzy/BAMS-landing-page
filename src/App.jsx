@@ -12,6 +12,7 @@ import Navbar from './components/Navbar';
 import MapSection from './components/MapSection';
 import { Helmet } from 'react-helmet';
 import ContactForm from './components/ContactForm';
+import HeaderTop from './components/HeaderTop';
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
           content="Apply for BAMS Admission 2025 at Naiminath Ayurvedic Medical College, Agra. 100% approved by NCISM, Ministry of AYUSH. Hostel, labs, and expert faculty available."
         />
       </Helmet>
-
+      <HeaderTop/>
       <Navbar />
       <HeroSection />
       <About />

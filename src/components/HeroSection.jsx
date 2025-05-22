@@ -4,7 +4,7 @@ import Image from '../../public/heroimg/doctor1.png'; // Assuming you're using N
 
 const HeroSection = () => {
   return (
-    <div className="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-12 bg-gradient-to-r from-[#e8f6f8] to-[#d7cac9]">
+    <div className="min-h-[90vh] flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-12 bg-gradient-to-r from-[#e8f6f8] to-[#d7cac9]">
       
       {/* LEFT PANEL: TEXT + CTA */}
       <div className="md:w-1/2 text-black text-center md:text-left mb-10 md:mb-0 order-1 md:order-none">
