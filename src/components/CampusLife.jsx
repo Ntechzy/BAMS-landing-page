@@ -37,11 +37,7 @@ const CampusLife = () => {
       <h2 className="text-3xl font-bold mb-4">Campus Life & Hostel Life
 </h2>
       <p className="text-gray-700 max-w-4xl mx-auto mb-10">
-        MUCM boasts a sprawling, state-of-the-art campus of over 50 acres in Melaka and Muar. The
-        facilities in the Melaka campus include various teaching and learning facilities, auditoriums,
-        lecture halls, classrooms, science labs, skill labs, library, and computer labs. Other amenities
-        include student hostels, cafeterias, gymnasium, swimming pool, sauna, squash courts, football
-        field and basketball court.
+        Nestled in a serene environment, the campus of Naiminath Ayurvedic Medical College offers a perfect blend of tradition and modernity, creating an enriching atmosphere for learning and personal growth. The state-of-the-art infrastructure, including a fully functional 100-bedded Ayurvedic hospital and specialized departments like Panchkarma, Shalya Tantra, and Kaumarbhritya, provides students with immersive, hands-on training. Beyond academics, hostel life at Naiminath is designed to feel like a second home — safe, clean, and student-friendly. The hostels are equipped with all necessary amenities to ensure a comfortable stay, encouraging a balanced lifestyle where students can focus on their studies, participate in wellness activities, and build lifelong friendships. With a focus on affordability and accessibility, the institute also supports holistic living through community healthcare outreach and a deeply rooted culture of Ayurvedic values.
       </p>
 
       {/* Grid */}

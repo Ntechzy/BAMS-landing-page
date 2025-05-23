@@ -10,27 +10,27 @@ import Image6 from "../assets/events-img/Event1.webp";
 const eventData = [
   {
     image: Image1,
-    title: "Lamp Lighting Ceremony & International Nurses Day",
+    title: "Industrial Visit",
     date: "May 20, 2025",
   },
   {
     image: Image2,
-    title: "Another College Function Event",
+    title: "National Seminar",
     date: "April 12, 2025",
   },
   {
     image: Image3,
-    title: "Workshop on Ayurveda and Wellness",
+    title: "Celebrates Yoga day",
     date: "March 5, 2025",
   },
   {
     image: Image4,
-    title: "Ayurvedic Awareness Rally",
+    title: "Annual Function",
     date: "February 15, 2025",
   },
   {
     image: Image5,
-    title: "Guest Lecture on Holistic Health",
+    title: "Freshers Party",
     date: "January 28, 2025",
   },
   {

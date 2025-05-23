@@ -9,11 +9,11 @@ import CampusLife from './components/CampusLife';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-import MapSection from './components/MapSection';
 import { Helmet } from 'react-helmet';
 import ContactForm from './components/ContactForm';
 import HeaderTop from './components/HeaderTop';
 import WhatsAppButton from './components/WhatsappButton';
+import InstagramPostGrid from './components/InstagramPostGrid';
 
 
 function App() {
@@ -35,9 +35,10 @@ function App() {
       <CampusLife />
       <Testimonials />
       <Recognition />
-      <ContactForm />
+      <InstagramPostGrid/>
       <WhatsAppButton/>
       <Footer />
+      
     </div>
   );
 }
