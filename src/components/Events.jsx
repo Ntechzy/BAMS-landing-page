@@ -1,35 +1,40 @@
 import React, { useState } from "react";
 import EventCard from "./EventsCard";
-import lampLighting from "../assets/events-img/event1.png";
+import Image1 from "../assets/events-img/Industrial-visit.webp";
+import Image2 from "../assets/events-img/National-seminar.webp";
+import Image3 from "../assets/events-img/Yoga.webp";
+import Image4 from "../assets/events-img/Annual-function.webp";
+import Image5 from "../assets/events-img/Freshers-party.webp";
+import Image6 from "../assets/events-img/Event1.webp";
 
 const eventData = [
   {
-    image: lampLighting,
+    image: Image1,
     title: "Lamp Lighting Ceremony & International Nurses Day",
     date: "May 20, 2025",
   },
   {
-    image: lampLighting,
+    image: Image2,
     title: "Another College Function Event",
     date: "April 12, 2025",
   },
   {
-    image: lampLighting,
+    image: Image3,
     title: "Workshop on Ayurveda and Wellness",
     date: "March 5, 2025",
   },
   {
-    image: lampLighting,
+    image: Image4,
     title: "Ayurvedic Awareness Rally",
     date: "February 15, 2025",
   },
   {
-    image: lampLighting,
+    image: Image5,
     title: "Guest Lecture on Holistic Health",
     date: "January 28, 2025",
   },
   {
-    image: lampLighting,
+    image: Image6,
     title: "Herbal Medicine Exhibition",
     date: "January 10, 2025",
   },
