@@ -13,6 +13,7 @@ import MapSection from './components/MapSection';
 import { Helmet } from 'react-helmet';
 import ContactForm from './components/ContactForm';
 import HeaderTop from './components/HeaderTop';
+import WhatsAppButton from './components/WhatsappButton';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
       <Testimonials />
       <Recognition />
       <ContactForm />
+      <WhatsAppButton/>
       <Footer />
     </div>
   );
