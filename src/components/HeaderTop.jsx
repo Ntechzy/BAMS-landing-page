@@ -7,6 +7,7 @@ export default function HeaderTop() {
     <div className="w-full bg-[#ffd000] text-gray-800 text-sm shadow-md">
       <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row items-center justify-between">
 
+
         <div className="flex items-center gap-8">
           <div className="flex items-center gap-2">
             <Clock className="w-5 h-5 text-yellow-900" />

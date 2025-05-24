@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <nav className="bg-white border-b border-gray-200 shadow-sm ">
       <div className="max-w-screen-xl mx-auto flex flex-wrap items-center justify-between p-4">
-        <img src={Logo} className="h-12" alt="Logo" />
+        <img src={Logo} className="h-14 " alt="Logo" />
 
         {/* Mobile Menu Button */}
         <button
