@@ -5,7 +5,7 @@ import heroBackground from '../../public/heroimg/hero.png'; // For Next.js
 const HeroSection = () => {
   return (
     <div
-      className="min-h-[90vh] flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-12 bg-cover bg-center relative"
+      className="min-h-[85vh] flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-12 bg-cover bg-center relative"
       style={{
         backgroundImage: `url(${heroBackground})`,
       }}

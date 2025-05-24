@@ -34,12 +34,13 @@ const CampusLife = () => {
   return (
     <section className="py-12 px-6 md:px-16 text-center bg-white">
       {/* Heading */}
-      <h2 className="text-3xl font-bold mb-4">Campus Life & Hostel Life
-</h2>
-      <p className="text-gray-700 max-w-4xl mx-auto mb-10">
-        Nestled in a serene environment, the campus of Naiminath Ayurvedic Medical College offers a perfect blend of tradition and modernity, creating an enriching atmosphere for learning and personal growth. The state-of-the-art infrastructure, including a fully functional 100-bedded Ayurvedic hospital and specialized departments like Panchkarma, Shalya Tantra, and Kaumarbhritya, provides students with immersive, hands-on training. Beyond academics, hostel life at Naiminath is designed to feel like a second home — safe, clean, and student-friendly. The hostels are equipped with all necessary amenities to ensure a comfortable stay, encouraging a balanced lifestyle where students can focus on their studies, participate in wellness activities, and build lifelong friendships. With a focus on affordability and accessibility, the institute also supports holistic living through community healthcare outreach and a deeply rooted culture of Ayurvedic values.
-      </p>
-
+  
+      <div className="text-center mb-12">
+        <h2 className="text-4xl md:text-5xl font-bold text-yellow-500 mb-4 text-shadow-lg/20">Campus Life & Hostel Life</h2>
+        <p className="text-lg text-gray-800 max-w-5xl mx-auto leading-relaxed">
+          Nestled in a serene environment, the campus of Naiminath Ayurvedic Medical College offers a perfect blend of tradition and modernity. From Ayurvedic hospital training to vibrant hostel life, our students enjoy holistic development rooted in wellness, community, and learning.
+        </p>
+      </div>
       {/* Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {campusItems.map((item, index) => (
