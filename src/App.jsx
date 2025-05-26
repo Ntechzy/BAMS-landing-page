@@ -12,7 +12,7 @@ import Navbar from './components/Navbar';
 import { Helmet } from 'react-helmet';
 import ContactForm from './components/ContactForm';
 import HeaderTop from './components/HeaderTop';
-import WhatsAppButton from './components/WhatsappButton';
+// import WhatsAppButton from './components/WhatsappButton';
 import InstagramPostGrid from './components/InstagramPostGrid';
 
 
@@ -36,7 +36,7 @@ function App() {
       <Testimonials />
       <Recognition />
       <InstagramPostGrid/>
-      <WhatsAppButton/>
+{/*       <WhatsAppButton/> */}
       <Footer />
       
     </div>
