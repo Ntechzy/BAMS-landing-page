@@ -1,11 +1,11 @@
 import React, { useState, useRef } from "react";
 import EventCard from "./EventsCard";
-import Image1 from "../assets/events-img/Industrial-visit.webp";
-import Image2 from "../assets/events-img/National-seminar.webp";
-import Image3 from "../assets/events-img/Yoga.webp";
-import Image4 from "../assets/events-img/Annual-function.webp";
-import Image5 from "../assets/events-img/Freshers-party.webp";
-import Image6 from "../assets/events-img/Event1.webp";
+import Image1 from "/assets/events-img/Industrial-visit.webp";
+import Image2 from "/assets/events-img/National-seminar.webp";
+import Image3 from "/assets/events-img/Yoga.webp";
+import Image4 from "/assets/events-img/Annual-function.webp";
+import Image5 from "/assets/events-img/Freshers-party.webp";
+import Image6 from "/assets/events-img/Event1.webp";
 
 const eventData = [
   { image: Image1, title: "Industrial Visit", date: "May 20, 2025" },

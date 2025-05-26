@@ -12,7 +12,7 @@ import Navbar from './components/Navbar';
 import { Helmet } from 'react-helmet';
 import ContactForm from './components/ContactForm';
 import HeaderTop from './components/HeaderTop';
-import WhatsAppButton from './components/WhatsappButton';
+import WhatsAppButton from './components/WhatsAppButton';
 import InstagramPostGrid from './components/InstagramPostGrid';
 
 

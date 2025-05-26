@@ -1,6 +1,6 @@
 import React from 'react';
-import Image3 from '../assets/recognition/ugc-img.jpg';
-import Image4 from '../assets/recognition/affilated_uni.png';
+import Image3 from '/assets/recognition/ugc-img.jpg';
+import Image4 from '/assets/recognition/affilated_uni.png';
 
 const Image1 = "https://cdn.brandfetch.io/id_jtYn8cb/w/1280/h/719/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B";
 const Image2 = "https://cdn.brandfetch.io/idjqzBzUgL/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1747226553113";

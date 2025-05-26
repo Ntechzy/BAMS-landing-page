@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutImage from '../assets/About-img/college-img.webp'; // Ensure this path is correct
+import AboutImage from '/assets/About-img/college-img.webp'; // Ensure this path is correct
 
 const About = () => {
   return (

@@ -1,6 +1,6 @@
 import { PhoneCall, Mail, Clock } from 'lucide-react';
 import { FaFileSignature } from 'react-icons/fa';
-import Letter from '../../public/permission-Letter/permission-letter.pdf'
+import Letter from '/permission-Letter/permission-letter.pdf'
 
 export default function HeaderTop() {
   return (
