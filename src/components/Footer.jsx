@@ -1,38 +1,67 @@
-import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaPhone, FaEnvelope } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaYoutube,
+  FaTwitter,
+  FaPhone,
+  FaEnvelope,
+} from "react-icons/fa";
+import CountUp from "react-countup";
 
 const Footer = () => {
   return (
     <footer className="bg-black text-white py-10 px-5 md:px-20">
       {/* Stats Section */}
-      <div className="bg-red-600 text-white grid grid-cols-2 md:grid-cols-4 text-center py-10">
+      <div className="bg-red-600 text-white grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-y-6 text-center py-10 rounded">
         <div>
-          <h2 className="text-3xl font-bold">576 K+</h2>
-          <p className="text-lg font-semibold">Patients Treated</p>
+          <h2 className="text-3xl font-bold">
+            <CountUp end={576000} duration={3} separator="," />+
+          </h2>
+          <p className="text-sm md:text-lg font-semibold">Patients Treated</p>
         </div>
         <div>
-          <h2 className="text-3xl font-bold">100+</h2>
-          <p className="text-lg font-semibold">Treatment</p>
+          <h2 className="text-3xl font-bold">
+            <CountUp end={100} duration={3} />+
+          </h2>
+          <p className="text-sm md:text-lg font-semibold">Treatment</p>
         </div>
         <div>
-          <h2 className="text-3xl font-bold">3+</h2>
-          <p className="text-lg font-semibold">Best College Awards</p>
+          <h2 className="text-3xl font-bold">
+            <CountUp end={3} duration={2} />+
+          </h2>
+          <p className="text-sm md:text-lg font-semibold">
+            Best College Awards
+          </p>
         </div>
         <div>
-          <h2 className="text-3xl font-bold">20006+</h2>
-          <p className="text-lg font-semibold">Total Website Visit's</p>
+          <h2 className="text-3xl font-bold">
+            <CountUp end={20006} duration={3} separator="," />+
+          </h2>
+          <p className="text-sm md:text-lg font-semibold">
+            Total Website Visit's
+          </p>
         </div>
       </div>
 
       {/* Footer Content */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mt-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 mt-10">
         {/* Treatments */}
         <div>
           <h3 className="font-bold text-lg mb-4">Treatments</h3>
-          <ul className="space-y-2 text-gray-300">
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-gray-300 text-sm">
             {[
-              "Abhyangam", "Shirodhara", "Kashayadhara", "Greeva Basti", "Janu Basti",
-              "Kati Basti", "Spine Basti", "Kizhi", "Mukha Lepam", "Netra Tarpanam", "Panchakarma"
-            ].map(treatment => (
+              "Abhyangam",
+              "Shirodhara",
+              "Kashayadhara",
+              "Greeva Basti",
+              "Janu Basti",
+              "Kati Basti",
+              "Spine Basti",
+              "Kizhi",
+              "Mukha Lepam",
+              "Netra Tarpanam",
+              "Panchakarma",
+            ].map((treatment) => (
               <li key={treatment}>{treatment}</li>
             ))}
           </ul>
@@ -42,7 +71,10 @@ const Footer = () => {
         <div>
           <h3 className="font-bold text-lg mb-4">About Naiminath Ayurveda</h3>
           <p className="text-gray-400 text-sm">
-            To provide world class education and treatment, this 100 bedded state of art Ayurvedic Hospital is functional since 2016 where more than 200 patients visit the Outdoor Department every day and around 40 patients are present in the Indoor Department.
+            To provide world class education and treatment, this 100 bedded
+            state of art Ayurvedic Hospital is functional since 2016 where more
+            than 200 patients visit the Outdoor Department every day and around
+            40 patients are present in the Indoor Department.
           </p>
           <div className="flex space-x-4 mt-4 text-xl text-white">
             <FaFacebook />
@@ -56,8 +88,11 @@ const Footer = () => {
         <div>
           <h3 className="font-bold text-lg mb-4">Naiminath Ayurveda</h3>
           <p className="text-gray-400 text-sm mb-4">
-            <strong>ADDRESS</strong><br />
-            N.H. 19, Nawalpur, Kuberpur, Behind Maruti TrueValue Showroom, Etmadpur, Agra – 283202, Uttar Pradesh, India.
+            <strong>ADDRESS</strong>
+            <br />
+            N.H. 19, Nawalpur, Kuberpur, Behind Maruti TrueValue Showroom,
+            <br />
+            Etmadpur, Agra – 283202, Uttar Pradesh, India.
           </p>
           <ul className="text-sky-400 space-y-2 text-sm">
             <li>→ UP BAMS Counselling</li>
