@@ -1,6 +1,7 @@
-import React from "react";
-import Form from "./Form";
-import heroBackground from "../../public/heroimg/hero.png"; // For Next.js
+import React from 'react';
+import Form from './Form';
+import heroBackground from '/heroimg/hero.png'; // For Next.js
+ 
 
 const HeroSection = () => {
   return (

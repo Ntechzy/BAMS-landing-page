@@ -1,12 +1,12 @@
 import React from "react";
-import Image1 from "../assets/InstaPost/post-1.jpg"
-import Image2 from "../assets/InstaPost/post-2.jpg"
-import Image3 from "../assets/InstaPost/post-3.jpg"
-import Image4 from "../assets/InstaPost/post-4.jpg"
-import Image5 from "../assets/InstaPost/post-5.jpg"
-import Image6 from "../assets/InstaPost/post-6.jpg"
-import Image7 from "../assets/InstaPost/post-7.jpg"
-import Image8 from "../assets/InstaPost/post-8.jpg"
+import Image1 from "/assets/InstaPost/post-1.jpg"
+import Image2 from "/assets/InstaPost/post-2.jpg"
+import Image3 from "/assets/InstaPost/post-3.jpg"
+import Image4 from "/assets/InstaPost/post-4.jpg"
+import Image5 from "/assets/InstaPost/post-5.jpg"
+import Image6 from "/assets/InstaPost/post-6.jpg"
+import Image7 from "/assets/InstaPost/post-7.jpg"
+import Image8 from "/assets/InstaPost/post-8.jpg"
 
 const posts = [
   {
