@@ -1,18 +1,20 @@
 import React from 'react';
 
 
+
+
 const campusItems = [
   {
     title: "Medical Research Centre",
-    img: '/assets/Campus-items/college-img.jpg',
+    img: '/assets/Campus-life/medical-research.webp',
   },
   {
     title: "Labs",
     img: '/assets/campus-items/lab-img.jpg',
   },
   {
-    title: "World Class faculty",
-    img: '/assets/Campus-items/college-img.jpg',
+    title: "Herbal Garden",
+    img: '/assets/Campus-life/Herbalgarden.jpg',
   },
   {
     title: "Class Rooms",
@@ -20,11 +22,11 @@ const campusItems = [
   },
   {
     title: "Hospoital OPD/IPD",
-    img: '/assets/Campus-items/college-img.jpg',
+    img: '/assets/Campus-life/hospital.jpg',
   },
   {
     title: "Hostel",
-    img: '/assets/Campus-items/college-img.jpg',
+    img: '/assets/Campus-life/hostel.jpg',
   },
 ];
 
