@@ -11,7 +11,7 @@ const campusItems = [
     img: '/assets/campus-items/lab-img.jpg',
   },
   {
-    title: "Organic Farming",
+    title: "World Class faculty",
     img: '/assets/Campus-items/college-img.jpg',
   },
   {
@@ -19,11 +19,11 @@ const campusItems = [
     img: '/assets/campus-items/classroom1-img.jpg',
   },
   {
-    title: "Hostel",
+    title: "Hospoital OPD/IPD",
     img: '/assets/Campus-items/college-img.jpg',
   },
   {
-    title: "Hostel Rooms",
+    title: "Hostel",
     img: '/assets/Campus-items/college-img.jpg',
   },
 ];
