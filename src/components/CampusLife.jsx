@@ -1,8 +1,5 @@
 import React from 'react';
 
-
-
-
 const campusItems = [
   {
     title: "Medical Research Centre",
@@ -21,8 +18,8 @@ const campusItems = [
     img: '/assets/campus-items/classroom1-img.jpg',
   },
   {
-    title: "Hospoital OPD/IPD",
-    img: '/assets/Campus-life/hospital.jpg',
+    title: "Hospital OPD/IPD",
+    img: '/assets/Campus-life/college-img.webp',
   },
   {
     title: "Hostel",

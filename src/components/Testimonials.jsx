@@ -4,10 +4,10 @@ const Testimonials = () => {
   const videoLinks = [
     'https://www.youtube.com/embed/1KE89Nvwfko?si=R-IX0e-g0yCHZv86',
     'https://www.youtube.com/embed/VzHCtwGn6-0?si=ieuHs9yocwqHqpzo',
-    'https://www.youtube.com/embed/wlOJYMW13zc?si=AJVmdWB1n4k69QYh',
-    'https://www.youtube.com/embed/MF9koBTjwu8?si=heryAiWN0G9aASM5',
-    'https://www.youtube.com/embed/xbujA9IEXrA?si=KAbvywkNlwhD-gJR',
-    'https://www.youtube.com/embed/AfBjoosCWW0?si=rUZtIlZN_czUetPg',
+    'https://www.youtube.com/embed/BsSdFVGUXoc?si=8Xc0fk-8KWSqfe96',
+    'https://www.youtube.com/embed/y1bkzgMB5dc?si=OmSrPXcC6pVh5ldn',
+    'https://www.youtube.com/embed/x0OQ-egKPxs?si=gEp_2LQ0g63meime',
+    'https://www.youtube.com/embed/Z7dKkK2Dvv8?si=4LXIcasJq0Xuo4mg',
   ];
 
   return (
