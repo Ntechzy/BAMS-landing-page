@@ -54,7 +54,7 @@ const CampusLife = () => {
             <img
               src={item.img}
               alt={item.title}
-              className="w-full h-64 object-cover"
+              className="w-full h-66 object-cover"
             />
             <div className="bg-yellow-400 text-center py-3">
               <h5 className="text-lg font-semibold text-gray-900 tracking-wide">
