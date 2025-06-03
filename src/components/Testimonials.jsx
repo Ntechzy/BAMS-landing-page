@@ -21,7 +21,7 @@ const Testimonials = () => {
           <div
             key={index}
             className="relative w-full max-w-[90%] mx-auto overflow-hidden rounded-xl shadow-lg transition-transform duration-300 ease-in-out hover:scale-105"
-            style={{ paddingTop: '50%' }} // Slightly smaller 16:10 ratio
+            style={{ paddingTop: "50%" }} // Slightly smaller 16:10 ratio
           >
             <iframe
               className="absolute top-0 left-0 w-full h-full"

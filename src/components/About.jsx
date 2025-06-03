@@ -1,7 +1,8 @@
 import React from 'react';
-import AboutImage from '/assets/About-img/college-img.webp'; // Ensure this path is correct
+import AboutImage from '/assets/About-img/collegeabout1.png'; // Ensure this path is correct
 
 const About = () => {
+  
   return (
     <section
       id="about"
@@ -19,7 +20,7 @@ const About = () => {
           <img
             src={AboutImage}
             alt="Naiminath Ayurvedic College"
-            className="object-cover w-full h-full"
+            className="object-left w-full h-full"
           />
         </div>
 

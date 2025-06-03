@@ -20,7 +20,7 @@ const eventData1 = [
 const eventData2 = [
   { image: Image4, title: "Annual Function", date: "February 15, 2025" },
   { image: Image5, title: "Freshers Party", date: "January 28, 2025" },
-  { image: Image6, title: "Herbal Medicine Exhibition", date: "January 10, 2025" },
+  { image: Image1, title: "Herbal Medicine Exhibition", date: "January 10, 2025" },
   { image: Image1, title: "Industrial Visit", date: "May 20, 2025" },
   { image: Image2, title: "National Seminar", date: "April 12, 2025" },
   { image: Image3, title: "Yoga Day Celebration", date: "March 5, 2025" },
