@@ -21,7 +21,7 @@ const InstagramPostGrid = () => {
       <h2 className="text-4xl font-bold text-center mb-8">
         See our world! <span className="text-yellow-600">Follow us on Instagram</span>
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-[1320px] mx-auto">
         {posts.map((post, index) => (
           <a
             href={post.link}
