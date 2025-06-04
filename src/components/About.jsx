@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutImage from '/assets/About-img/collegeabout1.png'; // Ensure this path is correct
+import AboutImage from '/assets/About-img/college4.jpg'; // Ensure this path is correct
 
 const About = () => {
   
@@ -20,7 +20,7 @@ const About = () => {
           <img
             src={AboutImage}
             alt="Naiminath Ayurvedic College"
-            className="object-left w-full h-full"
+            className="object-cover w-full h-full"
           />
         </div>
 

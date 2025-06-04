@@ -1,6 +1,6 @@
 import React from "react";
 
-const EventCard = ({ image, title, date }) => {
+const EventCard = ({ image, title, date, link }) => {
   return (
     <div className="bg-white rounded-lg shadow-md p-4 w-[400px] flex-shrink-0">
       <img
@@ -12,16 +12,15 @@ const EventCard = ({ image, title, date }) => {
         <h3 className="text-red-600 font-semibold text-lg">Events</h3>
         <p className="text-sm italic text-gray-500">{date}</p>
         
-        {/* Title with fixed height and ellipsis */}
         <p 
           className="font-bold mt-1 truncate"
           style={{ maxWidth: "100%" }}
-          title={title} // optional: tooltip to show full title on hover
+          title={title}
         >
           {title}
         </p>
-        
-        <a href="#" className="text-red-600 font-medium inline-flex items-center mt-2">
+
+        <a href={link} target="_blank" className="text-red-600 font-medium inline-flex items-center mt-2">
           Know More <span className="ml-1">➜</span>
         </a>
       </div>
@@ -30,4 +29,5 @@ const EventCard = ({ image, title, date }) => {
 };
 
 export default EventCard;
+
 

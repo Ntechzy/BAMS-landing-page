@@ -1,7 +1,8 @@
 import React from "react";
 import Card1 from "/assets/whyChooseimg/card4.jpg";
-import Card2 from "/assets/whyChooseimg/card2.jpg";
+import Card2 from "/assets/whyChooseimg/card5.jpg";
 import Card3 from "/assets/whyChooseimg/card3.jpeg";
+
 
 const WhyChoose = () => {
   const cards = [

@@ -1,6 +1,6 @@
 import React from 'react';
 import Form from './Form';
-import heroBackground from '/heroimg/hero.png'; // For Next.js
+import heroBackground from '/heroimg/hero3.png'; // For Next.js
  
 
 const HeroSection = () => {
@@ -21,11 +21,12 @@ const HeroSection = () => {
         <div className="md:w-1/2 text-black text-center md:text-left mb-10 md:mb-0">
           <h1 className="text-3xl md:text-5xl font-bold leading-snug mb-6 sm:text-xl">
             Your First Step Towards Experiencing World-Class <br />
-            <span className="text-orange-600">Medical Education</span>
+            <span className="text-white">Medical Education</span>
           </h1>
           <a
             href="#enquire"
-            className="inline-block bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3 px-6 rounded shadow transition"
+            className="inline-block bg-yellow-300 hover:bg-orange-50
+             text-black font-semibold py-3 px-6 rounded shadow transition"
           >
             Admissions Open
           </a>

@@ -11,7 +11,7 @@ const campusItems = [
   },
   {
     title: "Herbal Garden",
-    img: "/assets/Campus-life/Herbalgarden.jpg",
+    img: "/assets/Campus-life/herbalgarden1.JPG",
   },
   {
     title: "Class Rooms",
