@@ -19,7 +19,7 @@ const campusItems = [
   },
   {
     title: "Hospital OPD/IPD",
-    img: "/assets/Campus-life/college-img.webp",
+    img: "/assets/Campus-life/hospital-opd.jpg",
   },
   {
     title: "Hostel",

@@ -77,10 +77,18 @@ const Footer = () => {
             40 patients are present in the Indoor Department.
           </p>
           <div className="flex space-x-4 mt-4 text-xl text-white">
-            <FaFacebook />
-            <FaInstagram />
-            <FaYoutube />
-            <FaTwitter />
+            <a href="https://www.facebook.com/naiminathagra/">
+              <FaFacebook />
+            </a>
+            <a href="https://www.instagram.com/naiminath/?hl=en">
+              <FaInstagram />
+            </a>
+            <a href="https://www.youtube.com/channel/UCDzQIdrr0QpFg5XK0UbKUIQ">
+              <FaYoutube />
+            </a>
+            <a href="https://x.com/i/flow/login?redirect_after_login=%2Fnhmcagra">
+              <FaTwitter />
+            </a>
           </div>
         </div>
 
@@ -115,11 +123,11 @@ const Footer = () => {
             </div>
             <div className="flex items-center space-x-2 mt-4">
               <FaPhone className="text-sky-400" />
-               <span>+91-9528024473</span>
+              <span>+91-9528024473</span>
             </div>
             <div className="flex items-center space-x-2">
               <FaPhone className="text-sky-400" />
-                <span>+91-8193896320</span>
+              <span>+91-8193896320</span>
             </div>
           </div>
         </div>
