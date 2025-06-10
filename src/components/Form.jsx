@@ -57,12 +57,12 @@ const Form = () => {
       const res = await axios.post('https://lms.ntechzy.in/api/v1/form', payload) 
 
       if(res.data.success){
-      toast.success("Form Submitted Successful")
+      alert("Form Submitted Successful")
       }
 
       setFormData("")
     } catch (error) {
-      toast.error(error.message)
+      alert(error.message)
     }
   }
 
