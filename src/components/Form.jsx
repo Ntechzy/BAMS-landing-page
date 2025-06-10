@@ -54,9 +54,8 @@ const Form = () => {
         source: formData.source,
         sourceId: formData.sourceId,
       };
-      const res = await axios.post('https://lms.ntechzy.in/api/v1/form', payload)
-      console.log(res);
-      toast.success("okok")
+      const res = await axios.post('https://lms.ntechzy.in/api/v1/form', payload) 
+      toast.success("Form Submitted Suc")
     } catch (error) {
       toast.error(error.message)
     }
