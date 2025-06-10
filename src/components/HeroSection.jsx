@@ -1,6 +1,6 @@
 import React from 'react';
 import Form from './Form';
-import heroBackground from '/heroimg/hero3.png'; // For Next.js
+import heroBackground from '/heroimg/hero4.png'; // For Next.js
  
 
 const HeroSection = () => {

@@ -5,7 +5,9 @@ import Image2 from "/assets/events-img/National-seminar.webp";
 import Image3 from "/assets/events-img/Yoga.webp";
 import Image4 from "/assets/events-img/Annual-function.webp";
 import Image5 from "/assets/events-img/Freshers-party.webp";
-import Image6 from "/assets/events-img/Event1.webp";
+import Image6 from "/assets/events-img/sports3.jpg";
+import Image7 from "/assets/events-img/debate2.jpg";
+import Image8 from "/assets/events-img/paint3.jpg";
 
 // Two sets of event data with links
 const eventData1 = [
@@ -13,14 +15,13 @@ const eventData1 = [
   { image: Image2, title: "National Seminar", date: "April 12, 2025", link: "https://www.facebook.com/namcagra" },
   { image: Image3, title: "Yoga Day Celebration", date: "March 5, 2025", link: "https://www.facebook.com/namcagra" },
   { image: Image4, title: "Annual Function", date: "January 18, 2025", link: "https://www.facebook.com/namcagra" },
-  { image: Image5, title: "Freshers Party", date: "January 18, 2025", link: "https://www.facebook.com/namcagra" },
-  { image: Image6, title: "Herbal Medicine Exhibition", date: "January 10, 2025", link: "https://www.facebook.com/namcagra" },
 ];
 
 const eventData2 = [
-   { image: Image4, title: "Annual Function", date: "January 18, 2025", link: "https://www.facebook.com/namcagra" },
   { image: Image5, title: "Freshers Party", date: "January 18, 2025", link: "https://www.facebook.com/namcagra" },
-  { image: Image6, title: "Herbal Medicine Exhibition", date: "January 10, 2025", link: "https://www.facebook.com/namcagra" },
+   { image: Image6, title: "Sports Day", date: "January 18, 2025", link: "https://www.facebook.com/namcagra" },
+  { image: Image7, title: "Debate Competition", date: "January 18, 2025", link: "https://www.facebook.com/namcagra" },
+  { image: Image8, title: "Art Competition", date: "January 10, 2025", link: "https://www.facebook.com/namcagra" },
 ];
 
 const Carousel = ({ data }) => {
@@ -92,9 +93,11 @@ const Events = () => {
       <Carousel data={eventData2} />
 
       <div className="text-center mt-12">
-        <button className="px-8 py-3 bg-red-600 text-white font-semibold rounded-full hover:bg-red-700 transition">
+       <a href="https://www.facebook.com/namcagra" target="_blank">
+         <button className="px-8 py-3 bg-red-600 text-white font-semibold rounded-full hover:bg-red-700 transition">
           View All Events
         </button>
+       </a>
       </div>
     </section>
   );
